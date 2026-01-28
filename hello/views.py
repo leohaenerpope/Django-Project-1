@@ -6,7 +6,7 @@ from django.utils.timezone import datetime
 from django.http import HttpResponse
 
 def home(request):
-    return HttpResponse("Hello, Django!")
+    return HttpResponse("Home page")
 
 def hello_there(request):
     return render(
